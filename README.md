@@ -185,42 +185,6 @@ Then click **Analyze Message**.
 
 The application should identify multiple phishing indicators and assign a high risk score.
 
-## GitHub Upload
-
-After creating an empty GitHub repository, run:
-
-```powershell
-git init
-git add .
-git commit -m "Complete DecodeLabs Project 3"
-git branch -M main
-git remote add origin https://github.com/YOUR-USERNAME/DecodeLabs_Project_3.git
-git push -u origin main
-```
-
-Do not commit `.venv`, secrets or environment files. The included `.gitignore` already excludes common local files.
-
-### Suggested Repository Description
-
-```text
-DecodeLabs Project 3: an explainable phishing-awareness analyzer with red-flag detection, URL intelligence, risk scoring, training scenarios and security utilities.
-```
-
-### Suggested Topics
-
-```text
-cybersecurity
-phishing-detection
-security-awareness
-python
-flask
-threat-analysis
-information-security
-cyber-security
-soc
-decodelabs
-```
-
 ## How the Risk Score Works
 
 The analyzer uses transparent heuristics rather than claiming perfect detection.
